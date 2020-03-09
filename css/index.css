@@ -1,5 +1,58 @@
+.main .main__big-logo {
+  padding-bottom: 60px;
+  border-bottom: 1px dotted #434343;
+}
 
 img.main__reorder {
-    display: block;
-    margin: 0px auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.main .main__goods {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.prdlist {
+  border-spacing: 25px;
+  border-collapse: separate;
+  padding-bottom: 20px;
+}
+
+dl {
+  text-align: center;
+  width: 400px;
+}
+
+.prdlist .prdimg {
+  width: 400px;
+  height: 520px;
+}
+
+.prdlist .prdttl {
+  padding-top: 25px;
+  color: #959595;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.prdlist .pd-before {
+  color: #635149;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: 700;
+}
+.prdlist .pd-after {
+  color: #635149;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.footer {
+  border-top: 1px dotted #434343;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+  color: #635149;
+  font-size: 13px;
 }
